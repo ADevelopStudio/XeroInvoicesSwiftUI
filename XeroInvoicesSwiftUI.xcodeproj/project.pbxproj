@@ -1,0 +1,588 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		625ABA9428DAD84D008728A4 /* XeroInvoicesSwiftUIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 625ABA9328DAD84D008728A4 /* XeroInvoicesSwiftUIApp.swift */; };
+		625ABA9628DAD84D008728A4 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 625ABA9528DAD84D008728A4 /* ContentView.swift */; };
+		625ABA9828DAD84E008728A4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 625ABA9728DAD84E008728A4 /* Assets.xcassets */; };
+		625ABA9B28DAD84E008728A4 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 625ABA9A28DAD84E008728A4 /* Preview Assets.xcassets */; };
+		625ABAA528DAD84E008728A4 /* XeroInvoicesSwiftUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 625ABAA428DAD84E008728A4 /* XeroInvoicesSwiftUITests.swift */; };
+		625ABAAF28DAD84E008728A4 /* XeroInvoicesSwiftUIUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 625ABAAE28DAD84E008728A4 /* XeroInvoicesSwiftUIUITests.swift */; };
+		625ABAB128DAD84E008728A4 /* XeroInvoicesSwiftUIUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 625ABAB028DAD84E008728A4 /* XeroInvoicesSwiftUIUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		625ABAA128DAD84E008728A4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 625ABA8828DAD84D008728A4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 625ABA8F28DAD84D008728A4;
+			remoteInfo = XeroInvoicesSwiftUI;
+		};
+		625ABAAB28DAD84E008728A4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 625ABA8828DAD84D008728A4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 625ABA8F28DAD84D008728A4;
+			remoteInfo = XeroInvoicesSwiftUI;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		625ABA9028DAD84D008728A4 /* XeroInvoicesSwiftUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = XeroInvoicesSwiftUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		625ABA9328DAD84D008728A4 /* XeroInvoicesSwiftUIApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XeroInvoicesSwiftUIApp.swift; sourceTree = "<group>"; };
+		625ABA9528DAD84D008728A4 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		625ABA9728DAD84E008728A4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		625ABA9A28DAD84E008728A4 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		625ABAA028DAD84E008728A4 /* XeroInvoicesSwiftUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = XeroInvoicesSwiftUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		625ABAA428DAD84E008728A4 /* XeroInvoicesSwiftUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XeroInvoicesSwiftUITests.swift; sourceTree = "<group>"; };
+		625ABAAA28DAD84E008728A4 /* XeroInvoicesSwiftUIUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = XeroInvoicesSwiftUIUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		625ABAAE28DAD84E008728A4 /* XeroInvoicesSwiftUIUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XeroInvoicesSwiftUIUITests.swift; sourceTree = "<group>"; };
+		625ABAB028DAD84E008728A4 /* XeroInvoicesSwiftUIUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XeroInvoicesSwiftUIUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		625ABA8D28DAD84D008728A4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		625ABA9D28DAD84E008728A4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		625ABAA728DAD84E008728A4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		625ABA8728DAD84D008728A4 = {
+			isa = PBXGroup;
+			children = (
+				625ABA9228DAD84D008728A4 /* XeroInvoicesSwiftUI */,
+				625ABAA328DAD84E008728A4 /* XeroInvoicesSwiftUITests */,
+				625ABAAD28DAD84E008728A4 /* XeroInvoicesSwiftUIUITests */,
+				625ABA9128DAD84D008728A4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		625ABA9128DAD84D008728A4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				625ABA9028DAD84D008728A4 /* XeroInvoicesSwiftUI.app */,
+				625ABAA028DAD84E008728A4 /* XeroInvoicesSwiftUITests.xctest */,
+				625ABAAA28DAD84E008728A4 /* XeroInvoicesSwiftUIUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		625ABA9228DAD84D008728A4 /* XeroInvoicesSwiftUI */ = {
+			isa = PBXGroup;
+			children = (
+				625ABA9328DAD84D008728A4 /* XeroInvoicesSwiftUIApp.swift */,
+				625ABA9528DAD84D008728A4 /* ContentView.swift */,
+				625ABA9728DAD84E008728A4 /* Assets.xcassets */,
+				625ABA9928DAD84E008728A4 /* Preview Content */,
+			);
+			path = XeroInvoicesSwiftUI;
+			sourceTree = "<group>";
+		};
+		625ABA9928DAD84E008728A4 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				625ABA9A28DAD84E008728A4 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		625ABAA328DAD84E008728A4 /* XeroInvoicesSwiftUITests */ = {
+			isa = PBXGroup;
+			children = (
+				625ABAA428DAD84E008728A4 /* XeroInvoicesSwiftUITests.swift */,
+			);
+			path = XeroInvoicesSwiftUITests;
+			sourceTree = "<group>";
+		};
+		625ABAAD28DAD84E008728A4 /* XeroInvoicesSwiftUIUITests */ = {
+			isa = PBXGroup;
+			children = (
+				625ABAAE28DAD84E008728A4 /* XeroInvoicesSwiftUIUITests.swift */,
+				625ABAB028DAD84E008728A4 /* XeroInvoicesSwiftUIUITestsLaunchTests.swift */,
+			);
+			path = XeroInvoicesSwiftUIUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		625ABA8F28DAD84D008728A4 /* XeroInvoicesSwiftUI */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 625ABAB428DAD84E008728A4 /* Build configuration list for PBXNativeTarget "XeroInvoicesSwiftUI" */;
+			buildPhases = (
+				625ABA8C28DAD84D008728A4 /* Sources */,
+				625ABA8D28DAD84D008728A4 /* Frameworks */,
+				625ABA8E28DAD84D008728A4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = XeroInvoicesSwiftUI;
+			productName = XeroInvoicesSwiftUI;
+			productReference = 625ABA9028DAD84D008728A4 /* XeroInvoicesSwiftUI.app */;
+			productType = "com.apple.product-type.application";
+		};
+		625ABA9F28DAD84E008728A4 /* XeroInvoicesSwiftUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 625ABAB728DAD84E008728A4 /* Build configuration list for PBXNativeTarget "XeroInvoicesSwiftUITests" */;
+			buildPhases = (
+				625ABA9C28DAD84E008728A4 /* Sources */,
+				625ABA9D28DAD84E008728A4 /* Frameworks */,
+				625ABA9E28DAD84E008728A4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				625ABAA228DAD84E008728A4 /* PBXTargetDependency */,
+			);
+			name = XeroInvoicesSwiftUITests;
+			productName = XeroInvoicesSwiftUITests;
+			productReference = 625ABAA028DAD84E008728A4 /* XeroInvoicesSwiftUITests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		625ABAA928DAD84E008728A4 /* XeroInvoicesSwiftUIUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 625ABABA28DAD84E008728A4 /* Build configuration list for PBXNativeTarget "XeroInvoicesSwiftUIUITests" */;
+			buildPhases = (
+				625ABAA628DAD84E008728A4 /* Sources */,
+				625ABAA728DAD84E008728A4 /* Frameworks */,
+				625ABAA828DAD84E008728A4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				625ABAAC28DAD84E008728A4 /* PBXTargetDependency */,
+			);
+			name = XeroInvoicesSwiftUIUITests;
+			productName = XeroInvoicesSwiftUIUITests;
+			productReference = 625ABAAA28DAD84E008728A4 /* XeroInvoicesSwiftUIUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		625ABA8828DAD84D008728A4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1400;
+				LastUpgradeCheck = 1400;
+				TargetAttributes = {
+					625ABA8F28DAD84D008728A4 = {
+						CreatedOnToolsVersion = 14.0;
+					};
+					625ABA9F28DAD84E008728A4 = {
+						CreatedOnToolsVersion = 14.0;
+						TestTargetID = 625ABA8F28DAD84D008728A4;
+					};
+					625ABAA928DAD84E008728A4 = {
+						CreatedOnToolsVersion = 14.0;
+						TestTargetID = 625ABA8F28DAD84D008728A4;
+					};
+				};
+			};
+			buildConfigurationList = 625ABA8B28DAD84D008728A4 /* Build configuration list for PBXProject "XeroInvoicesSwiftUI" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 625ABA8728DAD84D008728A4;
+			productRefGroup = 625ABA9128DAD84D008728A4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				625ABA8F28DAD84D008728A4 /* XeroInvoicesSwiftUI */,
+				625ABA9F28DAD84E008728A4 /* XeroInvoicesSwiftUITests */,
+				625ABAA928DAD84E008728A4 /* XeroInvoicesSwiftUIUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		625ABA8E28DAD84D008728A4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				625ABA9B28DAD84E008728A4 /* Preview Assets.xcassets in Resources */,
+				625ABA9828DAD84E008728A4 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		625ABA9E28DAD84E008728A4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		625ABAA828DAD84E008728A4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		625ABA8C28DAD84D008728A4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				625ABA9628DAD84D008728A4 /* ContentView.swift in Sources */,
+				625ABA9428DAD84D008728A4 /* XeroInvoicesSwiftUIApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		625ABA9C28DAD84E008728A4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				625ABAA528DAD84E008728A4 /* XeroInvoicesSwiftUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		625ABAA628DAD84E008728A4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				625ABAB128DAD84E008728A4 /* XeroInvoicesSwiftUIUITestsLaunchTests.swift in Sources */,
+				625ABAAF28DAD84E008728A4 /* XeroInvoicesSwiftUIUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		625ABAA228DAD84E008728A4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 625ABA8F28DAD84D008728A4 /* XeroInvoicesSwiftUI */;
+			targetProxy = 625ABAA128DAD84E008728A4 /* PBXContainerItemProxy */;
+		};
+		625ABAAC28DAD84E008728A4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 625ABA8F28DAD84D008728A4 /* XeroInvoicesSwiftUI */;
+			targetProxy = 625ABAAB28DAD84E008728A4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		625ABAB228DAD84E008728A4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		625ABAB328DAD84E008728A4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		625ABAB528DAD84E008728A4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"XeroInvoicesSwiftUI/Preview Content\"";
+				DEVELOPMENT_TEAM = 2QX9SH777P;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = au.com.makemeapp.XeroInvoicesSwiftUI;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		625ABAB628DAD84E008728A4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"XeroInvoicesSwiftUI/Preview Content\"";
+				DEVELOPMENT_TEAM = 2QX9SH777P;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = au.com.makemeapp.XeroInvoicesSwiftUI;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		625ABAB828DAD84E008728A4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2QX9SH777P;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = au.com.makemeapp.XeroInvoicesSwiftUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/XeroInvoicesSwiftUI.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/XeroInvoicesSwiftUI";
+			};
+			name = Debug;
+		};
+		625ABAB928DAD84E008728A4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2QX9SH777P;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = au.com.makemeapp.XeroInvoicesSwiftUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/XeroInvoicesSwiftUI.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/XeroInvoicesSwiftUI";
+			};
+			name = Release;
+		};
+		625ABABB28DAD84E008728A4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2QX9SH777P;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = au.com.makemeapp.XeroInvoicesSwiftUIUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = XeroInvoicesSwiftUI;
+			};
+			name = Debug;
+		};
+		625ABABC28DAD84E008728A4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2QX9SH777P;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = au.com.makemeapp.XeroInvoicesSwiftUIUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = XeroInvoicesSwiftUI;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		625ABA8B28DAD84D008728A4 /* Build configuration list for PBXProject "XeroInvoicesSwiftUI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				625ABAB228DAD84E008728A4 /* Debug */,
+				625ABAB328DAD84E008728A4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		625ABAB428DAD84E008728A4 /* Build configuration list for PBXNativeTarget "XeroInvoicesSwiftUI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				625ABAB528DAD84E008728A4 /* Debug */,
+				625ABAB628DAD84E008728A4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		625ABAB728DAD84E008728A4 /* Build configuration list for PBXNativeTarget "XeroInvoicesSwiftUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				625ABAB828DAD84E008728A4 /* Debug */,
+				625ABAB928DAD84E008728A4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		625ABABA28DAD84E008728A4 /* Build configuration list for PBXNativeTarget "XeroInvoicesSwiftUIUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				625ABABB28DAD84E008728A4 /* Debug */,
+				625ABABC28DAD84E008728A4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 625ABA8828DAD84D008728A4 /* Project object */;
+}
