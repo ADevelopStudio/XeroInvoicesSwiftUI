@@ -7,15 +7,61 @@
 
 import SwiftUI
 
+@MainActor
+class ContentViewModel: ObservableObject {
+    @Published fileprivate var invoices: [Invoice] = []
+    
+    func deleteInvoice(at offsets: IndexSet) {
+        invoices.remove(atOffsets: offsets)
+    }
+    
+    func addInvoice() {
+        let invoiceNumber = (invoices.last?.invoiceNumber ?? 0) + 1
+        invoices.append(Invoice(invoiceNumber: invoiceNumber))
+    }
+    
+    var totalMoney: String {
+        invoices.map{ $0.getTotal() }.reduce(0, +).formatted(.currency(code: "AUD"))
+    }
+}
+
+
 struct ContentView: View {
+    @StateObject fileprivate var viewModel = ContentViewModel()
+    
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundColor(.accentColor)
-            Text("Hello, world!")
+        NavigationView {
+            VStack {
+                HStack {
+                    Text("Total money: \(viewModel.totalMoney)")
+                        .multilineTextAlignment(.leading)
+                        .font(.callout)
+                        .foregroundColor(.gray)
+                        .padding()
+                    Spacer()
+                }
+                
+                List {
+                    ForEach($viewModel.invoices, id: \.self) { invoice in
+                        Section { InvoiceView(invoice: invoice) }
+                    }
+                    .onDelete {
+                        viewModel.deleteInvoice(at: $0)
+                    }
+                }
+                .listStyle(.insetGrouped)
+            }
+            .navigationTitle("🧾 Invoices: \(viewModel.invoices.count)")
+            .toolbar {
+                Button {
+                    viewModel.addInvoice()
+                } label: {
+                    Label("Add invoice", systemImage: "doc.badge.plus")
+                        .labelStyle(.titleAndIcon)
+                        .font(.callout)
+                }
+            }
         }
-        .padding()
     }
 }
 
