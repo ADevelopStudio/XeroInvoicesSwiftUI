@@ -23,10 +23,7 @@ struct Invoice: Hashable{
 
 extension Invoice {
     var createdAt: String {
-        let df = DateFormatter()
-        df.dateStyle = .medium
-        df.timeStyle = .medium
-        return df.string(from: invoiceDate)
+        Utilites.mediumDateFormatter.string(from: invoiceDate)
     }
     
     var totalAmountOfProducts: Int {
@@ -34,7 +31,7 @@ extension Invoice {
     }
     
     var totalCost: String {
-        self.getTotal().formatted(.currency(code: "AUD"))
+        self.getTotal().inLocalCurrency
     }
     
     mutating func deleteInvoiceLine(at offsets: IndexSet) {

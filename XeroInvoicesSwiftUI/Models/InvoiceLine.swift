@@ -24,11 +24,11 @@ extension InvoiceLine {
     
     var costBreakDown: String {
         [
-            product.cost.formatted(.currency(code: "AUD")),
+            product.cost.inLocalCurrency,
             "X",
             String(describing: quantity),
             "=",
-            cost.formatted(.currency(code: "AUD")),
+            cost.inLocalCurrency,
         ].joined(separator: " ")
     }
 }

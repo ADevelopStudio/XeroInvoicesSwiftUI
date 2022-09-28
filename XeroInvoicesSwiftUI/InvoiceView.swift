@@ -12,7 +12,7 @@ struct InvoiceView: View {
     
     var body: some View {
         VStack(alignment: .leading) {
-            Text("Invoice №\(invoice.invoiceNumber)")
+            Text("\(InvoiceViewStrings.invoiceNumber.localised)\(invoice.invoiceNumber)")
                 .font(.title2)
                 .bold()
                 .multilineTextAlignment(.leading)
@@ -43,7 +43,7 @@ struct InvoiceView: View {
             .frame(height: CGFloat(invoice.lineItems.count) * 50)
             .listStyle(.inset)
             HStack {
-                Text("Total:")
+                Text("\(InvoiceViewStrings.total.localised):")
                     .font(.title3)
                     .bold()
                 Spacer()
@@ -65,7 +65,7 @@ struct InvoiceView: View {
                         }
                     }
                 } label: {
-                    ButtonView(title: "Add a Product")
+                    ButtonView(title: InvoiceViewStrings.addProduct.localised)
                 }
             }
         }
@@ -80,4 +80,11 @@ struct InvoiceView_Previews: PreviewProvider {
             InvoiceView(invoice: .constant(.example))
         }
     }
+}
+
+
+enum InvoiceViewStrings: String, CaseIterable {
+    case invoiceNumber = "InvoiceView_InvoiceN" //Invoice №
+    case total = "InvoiceView_Total" //Total
+    case addProduct = "InvoiceView_AddProduct" //"Add a Product"
 }

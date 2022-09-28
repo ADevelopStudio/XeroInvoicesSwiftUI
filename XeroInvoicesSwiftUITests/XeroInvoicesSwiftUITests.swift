@@ -211,6 +211,20 @@ final class XeroInvoicesSwiftUITests: XCTestCase {
         XCTAssertTrue(testInvoice.toString() == expentingResult, "Unexpected result: \(testInvoice.toString())")
     }
     
+    func testLocalisation() throws {
+        ContentViewStrings.allCases.forEach {
+            XCTAssertTrue($0.localised != $0.rawValue)
+            XCTAssertTrue($0.rawValue.localised != $0.rawValue)
+            XCTAssertTrue($0.rawValue.localised == $0.localised)
+        }
+        
+        InvoiceViewStrings.allCases.forEach {
+            XCTAssertTrue($0.localised != $0.rawValue)
+            XCTAssertTrue($0.rawValue.localised != $0.rawValue)
+            XCTAssertTrue($0.rawValue.localised == $0.localised)
+        }
+    }
+    
     func testPerformanceExample() throws {
         // This is an example of a performance test case.
         self.measure {

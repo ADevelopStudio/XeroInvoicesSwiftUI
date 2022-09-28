@@ -1,0 +1,19 @@
+/* 
+  Localizable.strings
+  XeroInvoicesSwiftUI
+
+  Created by Dmitrii Zverev on 28/9/2022.
+  
+*/
+
+//MARK: - ContentView
+"ContentView_Total_Money" = "Total money";
+"ContentView_Title" = "🧾 Invoices";
+"ContentView_Add_Invoice" = "Add invoice";
+
+
+//MARK: - InvoiceView
+"InvoiceView_InvoiceN"  = "Invoice №";
+"InvoiceView_Total" = "Total";
+"InvoiceView_AddProduct" = "Add a Product";
+    

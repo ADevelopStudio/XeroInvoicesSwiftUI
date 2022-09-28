@@ -21,7 +21,7 @@ class ContentViewModel: ObservableObject {
     }
     
     var totalMoney: String {
-        invoices.map{ $0.getTotal() }.reduce(0, +).formatted(.currency(code: "AUD"))
+        invoices.map{ $0.getTotal() }.reduce(0, +).inLocalCurrency
     }
 }
 
@@ -33,7 +33,7 @@ struct ContentView: View {
         NavigationView {
             VStack {
                 HStack {
-                    Text("Total money: \(viewModel.totalMoney)")
+                    Text("\(ContentViewStrings.totalMoney.localised): \(viewModel.totalMoney)")
                         .multilineTextAlignment(.leading)
                         .font(.callout)
                         .foregroundColor(.gray)
@@ -51,12 +51,12 @@ struct ContentView: View {
                 }
                 .listStyle(.insetGrouped)
             }
-            .navigationTitle("🧾 Invoices: \(viewModel.invoices.count)")
+            .navigationTitle("\(ContentViewStrings.title.localised): \(viewModel.invoices.count)")
             .toolbar {
                 Button {
                     viewModel.addInvoice()
                 } label: {
-                    Label("Add invoice", systemImage: "doc.badge.plus")
+                    Label(ContentViewStrings.addInvoiceButtonTitle.localised, systemImage: "doc.badge.plus")
                         .labelStyle(.titleAndIcon)
                         .font(.callout)
                 }
@@ -69,4 +69,11 @@ struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
         ContentView()
     }
+}
+
+
+enum ContentViewStrings: String, CaseIterable {
+    case totalMoney = "ContentView_Total_Money" // Total money
+    case title = "ContentView_Title" //🧾 Invoices
+    case addInvoiceButtonTitle = "ContentView_Add_Invoice" //"Add invoice"
 }
